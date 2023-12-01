@@ -167,7 +167,6 @@ a{
     overflow: hidden;
     margin-top: 50px;
     margin-inline: 20px;
-    /* transition: background 0.5s ease, color 0.5s ease;   */
 }
 
 .p1 span {
@@ -179,7 +178,7 @@ a{
     left: 0;
     bottom: 0;
     z-index: -1;
-    transition: 0.5s; /* Adjusted transition duration */
+    transition: 0.5s;
 }
 
 .p1 button:hover {
@@ -411,13 +410,10 @@ h3 {
     padding: 0;
     width: 33vh;
 }
-/* footer {
-    background-color: rgb(255, 255, 255);
-    /* background-color: black; */
-    /* font-size: 15px;
-    text-align: center;
-    color: black;
-    margin-top : 0;
-    
-} */ 
 
+footer {
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+    margin: -35px;
+}
