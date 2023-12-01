@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0; 
     font-family: sans-serif;
+    box-sizing: border-box;
    
 }
 
@@ -10,18 +11,22 @@
         height: 100vh;
         background-image: linear-gradient(rgba(178, 151, 151, 0.202), rgba(53, 53, 53, 0.447)),
         url(stray-cat-cost.webp);
+        background-color: darkgray;
         background-size:cover;
         background-position:center;
         background-repeat: no-repeat;
         
 }
+
+    
+
 #credit{
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
     color: black;
     padding-right: 0 5px;
     width: fit-content;
-    background-color: gray;
+    background-color: grey;
     opacity: 60%;
     position: relative;
     top: -25px;
@@ -33,6 +38,7 @@
     margin-right: 2px;
     padding: 20px 0px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -45,7 +51,7 @@
 }
 .navbar ul li{
     list-style: none;
-    display: inline-block;
+    display:inline-flex;
     margin: 0 30px;
     margin-right: 4px;
     margin-inline-end: auto;
@@ -108,7 +114,7 @@ button{
     cursor: pointer;
     position: relative;
     overflow: hidden;
-    margin-top: 100px;
+    margin-top: 30px;
     margin-inline: 20px;
    
 }
@@ -139,6 +145,90 @@ button:hover span{
     width: 100%;
     border: none;
 }
+@media screen and (max-width: 844px) {
+    .banner {
+      background-size: contain;
+      width: fit-content;
+    }
+  }
+  
+  @media screen and (max-width: 844px) {
+    #credit {
+      font-size: 14px;
+    }
+  }
+@media screen and (max-width: 844px) {
+    .navbar {
+      width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 844px) {
+    .banner {
+      background-size: contain;
+    }
+    
+    .navbar {
+      position: static;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    
+    .navbar ul {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    
+    .navbar ul li {
+      margin: 0 10px;
+    }
+    .navbar a{
+        font-size: 14px;
+    }
+    .logo {
+        width: 150px;
+        height: auto;
+      }
+      
+      .logo img {
+        width: 100%;
+        height: 100%;
+      }
+      
+    
+    .button {
+        margin-top: 10px;
+        text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    #credit {
+      font-size: 14px;
+    }
+      
+      .logo {
+        width: 200px;
+      }
+      .navbar a{
+        font-size: 14px;
+      }
+      .content h1{
+        font-size: 20px;
+      }
+      .content h4{
+        font-size: 14px;
+      }
+      .button {
+        width: 100%;
+        margin-top: 30px;
+      }
+  }
+  
 
 .p1{
     width: 100%;
@@ -216,6 +306,7 @@ margin-top: 30px;
 text-decoration: none;
 position: relative;
 
+
 }
 .button2 a{
     color: black;
@@ -243,6 +334,7 @@ position: relative;
     margin-top: 30px;
     float: left;
     margin-left: 60px;
+    position: relative;
 }
 
 .image2{
@@ -253,10 +345,11 @@ position: relative;
     margin-top: 30px;
     float: right;
     margin-right: 100px;
+    position: relative;
 }
-.button2 button{
+/* .button2 button{ */
     /* display: inline-block; */
-    bottom: unset;
+    /* bottom: unset;
     margin-inline: -330px;
     justify-content: space-between;
     float:left;
@@ -267,7 +360,21 @@ position: relative;
     position: relative;
     overflow: hidden;
 
-}
+} */
+.button2 button {
+    padding: 15px 30px;
+    border-radius: 25px;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-inline: -330px;
+    bottom: unset;
+    display: inline-block;
+    margin-top: 350px;
+    width: auto;
+  }
 .button2 span{
     background: rgba(211, 107, 9, 0.81);
     height: 100%;
@@ -314,12 +421,98 @@ position: relative;
     text-align: center;
  
 }
+@media screen and (max-width: 768px) {
+    .p1 {
+      font-size: 16px;
+    }
+  
+    .p1 button {
+      width: 160px;
+      margin-inline: 10px;
+    }
+  
+    .p2 {
+      font-size: 16px;
+    }
+  
+    .image1,
+    .image2 {
+      width: 40%;
+      height: auto;
+    }
+  .button2{
+    justify-content: space-between;
+  }
+    .button2 button {
+        margin-inline: 0px;
+        margin-top: 5px;
+        width: auto;
+      }
+    
+      .button2 span {
+        margin-top: 10px;
+      }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .p1 {
+      font-size: 14px;
+    }
+  
+    .p1 button {
+      width: 140px;
+      margin-inline: 5px;
+    }
+  
+    .p2 {
+      font-size: 14px;
+    }
+  
 
 
 .button3 :hover span{
     width: 100%;
     border: none;
 }
+.button2 button {
+    margin-inline: 0px;
+    margin-top: 10px;
+    width: auto;
+  }
+
+  .button2 span {
+    margin-top: 10px;
+  }
+  .button2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button2 button {
+    margin-top: 5px;
+  }
+  }
+  @media screen and (max-width: 768px) {
+    .image1,
+    .image2 {
+      width: 40%;
+      height: auto;
+      margin-left: 20px;
+      margin-right: 20px;
+      float: none;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .image1,
+    .image2 {
+      width: 80%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      float: none;
+    }
+  }
 
 .p3{
     width: 100%;
@@ -348,6 +541,7 @@ main {
     font-family: sans-serif;  
     margin-top: 650px;
     line-height: 250%;
+    /* position: relative; */
     
 
 }
@@ -383,6 +577,10 @@ button[type="submit"] {
     border: 1px solid orangered;
     border-radius: 10px;
     margin-top: 0;
+    margin-right: 50px;
+    align-items: center;
+    margin: 0 auto;
+   
 
 }
 button img{
@@ -396,6 +594,18 @@ button[type="submit"]:hover {
     border: 1px solid orangered;
     
 }
+.form {
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+
+  }
+  
+  form {
+    display: grid;
+    gap: 1rem;
+  }
 
 .link {
     transform: translateY(-0.5%);
@@ -440,7 +650,7 @@ img{
 }
 .div1 {
     width: 33%;
-    padding: 50px;
+    padding: 100px;
     
 }
 #img1 {
@@ -491,5 +701,78 @@ h3 {
     width: 33vh;
 }
 
-
-
+@media screen and (max-width: 768px) {
+    main {
+      margin-top: 600px;
+      padding: 1vh 0 4vh 0;
+    }
+  
+  
+    input,
+    textarea {
+      width: 90%;
+    }
+  
+    button[type="submit"] {
+      width: 90%;
+    }
+  
+    .info {
+      gap: 10vh;
+    }
+  
+    .div1 {
+      width: 50%;
+      padding: 30px;
+    }
+  
+    hr {
+      width: 90%;
+    }
+  
+    .SM1 {
+      gap: 15px;
+    }
+    .form{
+        max-width:400px;
+       
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    main {
+      margin-top: 300px;
+      padding: 1vh 0 3vh 0;
+    }
+  
+    input,
+    textarea {
+      width: 100%;
+    }
+  
+    button[type="submit"] {
+      width: 100%;
+    }
+  
+    .info {
+      gap: 5vh;
+    }
+  
+    .div1 {
+      padding: 20px;
+      width: 100%;
+    }
+  
+    hr {
+      width: 100%;
+    }
+  
+    .SM1 {
+      gap: 10px;
+    }
+    .form{
+        max-width: 300px;
+  
+        
+    }
+  }
