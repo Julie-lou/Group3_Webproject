@@ -27,6 +27,17 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+#credit{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    padding-right: 0 5px;
+    width: fit-content;
+    background-color: gray;
+    opacity: 60%;
+    position: relative;
+    top: 90px;
+}
 .logo{
     width: fit-content;
     height: 50px;
@@ -142,7 +153,10 @@ body{
     font-weight:bold;
     margin-right: 90px;
     font-size: 25px;
-    padding: 20px
+    padding: 110px
+}
+.s2 h2 h3{
+    font-size: 35px;
 }
 .s2 p {
     width: 100%;
@@ -237,6 +251,10 @@ body{
     margin-top:10px;
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
+.content2 h6{
+    text-align: left;
+    color:#000000;
+}
 .s1 {
     font-size: 18px;
     font-family:sans-serif;
@@ -290,9 +308,14 @@ section {
     display: flex;
     width: 100%;
     height: 80vh;
-    background-color: rgb(253, 247, 235)
+    background-color: rgb(253, 247, 235);
+    align-items: center;
     
   }
+  .flex-container h6{
+    text-align:justify;
+    color: rgb(104, 89, 89);
+}
 .flex-container h3{
     float: none;
 }
@@ -314,13 +337,14 @@ section {
     height: 125vh;
     background-color: rgb(253, 247, 235);
     padding: -20px;
-    margin-top: -100px;
+    margin-top: -130px;
     height: 400px;
     text-align:center;
     font-size: 15px;
     line-height: 30px;
-    height: 350%;
-    margin-left:120px
+    /* height: 350%; */
+    margin-left:400px;
+    margin-bottom: 40px;
 
   }
   
