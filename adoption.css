@@ -215,6 +215,8 @@ a{
 .image{
     border: 2px solid black;
     border-radius: 10%;
+    object-fit: cover;
+    
 }
 .flex-container1 h6{
     text-align: right;
