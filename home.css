@@ -147,25 +147,25 @@ button:hover span{
     width: 100%;
     border: none;
 }
-@media screen and (max-width: 844px) {
+@media screen and (max-width: 768px) {
     .banner {
       background-size: contain;
       width: fit-content;
     }
   }
   
-  @media screen and (max-width: 844px) {
+  @media screen and (max-width: 768px) {
     #credit {
       font-size: 14px;
     }
   }
-@media screen and (max-width: 844px) {
+@media screen and (max-width: 768px) {
     .navbar {
       width: 90%;
     }
   }
   
-  @media screen and (max-width: 844px) {
+  @media screen and (max-width: 768px) {
     .banner {
       background-size: contain;
     }
@@ -456,7 +456,7 @@ position: relative;
       }
   }
   
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     .p1 {
       font-size: 14px;
     }
@@ -505,7 +505,7 @@ position: relative;
     }
   }
   
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     .image1,
     .image2 {
       width: 80%;
