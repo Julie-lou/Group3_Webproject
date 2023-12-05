@@ -370,6 +370,9 @@ section {
     text-align: center;
     margin-right: 10px;
     margin-left:30px;
+    flex-wrap: nowrap;
+
+
 
 
   }
