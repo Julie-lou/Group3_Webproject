@@ -236,7 +236,7 @@ button:hover span{
     width: 100%;
     /* position: absolute; */
  
-
+    
     text-align: center;
     color: black;
     padding: 10px;
@@ -251,6 +251,7 @@ button:hover span{
 
 .p1 h5{
     font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     line-height: 30px;
     font-weight: 20;
@@ -291,14 +292,15 @@ button:hover span{
     width: 100%;
     position: absolute;
     margin-top: 30px;
-background-size: cover;
-background-position: center;
+    background-size: cover;
+    background-position: center;
     text-align: center;
     color: black;
     padding: 10px;
     font-size: 20px;
     background-color: rgb(237, 231, 220);
     transform: translateY(-0.5%);
+  
 }
 .button2{
 display: flex;
@@ -327,6 +329,7 @@ position: relative;
     line-height: 30px;
     font-weight: 20;
     margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .image1{
     border: 2px solid black;
