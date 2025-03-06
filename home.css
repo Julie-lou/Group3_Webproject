@@ -27,7 +27,7 @@
     font-family: 'Times New Roman', Times, serif;
     color: black;
     padding-right: 0 5px;
-    width: fit-content;
+    width: max-content;
     background-color: grey;
     opacity: 60%;
     position: relative;
